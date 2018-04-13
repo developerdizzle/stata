@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):e.stata=t()}(this,function(){return{createStore:function(e,r,f){var u=e,i=Object.keys(r).reduce(function(e,o){return e[o]=function(){for(var e,t=[],n=arguments.length;n--;)t[n]=arguments[n];return e=r[o].apply(r,t),u=e(u),void f(u,i)},e},{});return f(u,i),i}}});
+//# sourceMappingURL=stata.umd.js.map
